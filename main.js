@@ -1,3 +1,4 @@
+// image source 
 const imgContainer = [
     'images/pic-1.jpg',
     'images/pic-2.jpg',
@@ -6,6 +7,8 @@ const imgContainer = [
     'images/pic-5.jpg',
     'images/pic-6.jpg'
 ];
+
+// image caption source 
 const imgCaption = [
     'away-hill-fields-tree-lane-lonely',
     'sunset-tree-water-silhouette',
@@ -23,7 +26,6 @@ setInterval(() => {
     // console.log(slideIndex);
     if (slideIndex >= imgContainer.length) {
         slideIndex = 0;
-
     }
     let img = imgContainer[slideIndex];
     let imgCap = imgCaption[slideIndex];
